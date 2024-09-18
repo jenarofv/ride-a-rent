@@ -1,0 +1,13 @@
+html {
+  background-color: #ffc200;
+}
+
+header > * {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}

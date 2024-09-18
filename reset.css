@@ -1,0 +1,7 @@
+h1, h2, h3, body, header, main, ul{
+  margin: 0;
+}
+
+* {
+  font-family: sans-serif;
+}
