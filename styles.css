@@ -35,7 +35,7 @@ h2 {
   background-size: cover;
 }
 
-.activity .title {
+.title {
   display: block;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.5rem;
@@ -76,13 +76,16 @@ h2 {
   height: 25rem;
 }
 
-.activity .description {
+.description {
   text-align: justify;
-  background-color: rgba(0,0,0,0.75);
   width: 90%;
-  color: white;
   padding: 0.5rem;
   box-sizing: border-box;
+}
+
+.activity .description {
+  background-color: rgba(0,0,0,0.75);
+  color: white;
 }
 
 #bosques {
@@ -107,6 +110,26 @@ h2 {
 
 #ahr {
   background-image: url("img/ahr.png");
+}
+
+#schedule .activities-container {
+  gap: 1rem;
+}
+
+.day {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.event {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 2px solid black;
+  flex: 1 1 200px;
+  max-width: 35ch;
+  /* min-height: 25rem; */
 }
 
 #social-sites {
