@@ -19,7 +19,7 @@ h2 {
   margin-top: 1.5rem;
 }
 
-#activities-container {
+.activities-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -29,11 +29,14 @@ h2 {
   flex: 1 1 200px;     
   height: 300px;       
   display: flex;       
+  flex-flow: column;
   align-items: center; 
   justify-content: center;
+  background-size: cover;
 }
 
-.activity p {
+.activity .title {
+  display: block;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.5rem;
   background-color: rgba(0,0,0,0.6);
@@ -44,30 +47,66 @@ h2 {
 
 #road {
   background-image: url("img/road-ride.jpg");
-  background-size: cover;
   background-position-y: bottom;
-  /* background-position-x: center; */
 }
 
 #mtb {
   background-image: url("img/mtb.jpg");
-  background-size: cover;
   background-position-x: right;
 }
 
 #velodrome {
   background-image: url("img/velodrome.jpg");
-  background-size: cover;
 }
 
 #school {
   background-image: url("img/kids_riding.jpg");
-  background-size: cover;
 }
 
 #coffee {
   background-image: url("img/coffee-ride.jpg");
-  background-size: cover;
+}
+
+#locations .activities-container {
+  gap: 1em;
+}
+
+#locations .activity {
+  flex: 1 0 250px;     
+  height: 25rem;
+}
+
+.activity .description {
+  text-align: justify;
+  background-color: rgba(0,0,0,0.75);
+  width: 90%;
+  color: white;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+#bosques {
+  background-image: url("img/bosques.png");
+}
+
+#ajusco {
+  background-image: url("img/ajusco.png");
+}
+
+#dinamos {
+  background-image: url("img/dinamos.png");
+}
+
+#venta {
+  background-image: url("img/la_venta.png");
+}
+
+#loma {
+  background-image: url("img/la_loma.png");
+}
+
+#ahr {
+  background-image: url("img/ahr.png");
 }
 
 #social-sites {
