@@ -9,10 +9,30 @@ body {
 header > * {
   font-family: 'Permanent Marker', cursive;
   text-align: center;
-  font-size: 4rem;
+  font-size: 6.5rem;
 }
 
 h2 {
   font-family: 'Permanent Marker', cursive;
   text-align: center;
 }
+
+#social-sites {
+  display: flex;
+  flex-flow: row;
+}
+
+.img-container {
+  flex: 1 1;
+}
+
+.img-container a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+} 
+
+.img-container img {
+  flex: 1 1;
+  max-width: 120px;
+} 
